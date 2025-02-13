@@ -9,4 +9,6 @@ add_executable(Proyect_Prueba main.cpp
         Fibonacci.cpp
         Fibonacci.h
         Factorial.cpp
-        Factorial.h)
+        Factorial.h
+        Numero_Reverso.cpp
+        Numero_Reverso.h)

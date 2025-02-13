@@ -1,7 +1,7 @@
-#include "Factorial.h"
+#include "Numero_Reverso.h"
 
 int main() {
-    Factorial factorial;
-    factorial.mostrarFactorial();
+    Numero_Reverso numero_reverso;
+    numero_reverso.mostrarReverso();
     return 0;
 }
