@@ -1,7 +1,8 @@
-#include "Factorial.h"
+#include <iostream>
+
+using namespace std;
 
 int main() {
-    Factorial factorial;
-    factorial.mostrarFactorial();
+    cout << "Estructura de datos" << endl;
     return 0;
 }
