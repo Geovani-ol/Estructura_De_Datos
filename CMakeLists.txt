@@ -11,4 +11,6 @@ add_executable(Proyect_Prueba main.cpp
         Factorial.cpp
         Factorial.h
         Numero_Reverso.cpp
-        Numero_Reverso.h)
+        Numero_Reverso.h
+        Decimal_Binario.cpp
+        Decimal_Binario.h)

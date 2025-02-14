@@ -1,7 +1,7 @@
-#include "Numero_Reverso.h"
+#include "Decimal_Binario.h"
 
 int main() {
-    Numero_Reverso numero_reverso;
-    numero_reverso.mostrarReverso();
+    Decimal_Binario decimal_binario;
+    decimal_binario.mostrarDecimalBinario();
     return 0;
 }
