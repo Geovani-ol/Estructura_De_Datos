@@ -1,7 +1,7 @@
-#include "Decimal_Binario.h"
+#include "Voltear_Cadena.h"
 
 int main() {
-    Decimal_Binario decimal_binario;
-    decimal_binario.mostrarDecimalBinario();
+    Voltear_Cadena voltear;
+    voltear.mostrarVoltear();
     return 0;
 }

@@ -1,14 +1,12 @@
 # ninja log v6
-7	98	7611936851817916	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
-713	1062	7611936858873121	Proyect_Prueba.exe	b7fbfc2192c12ea
-16	707	7611936851902268	CMakeFiles/Proyect_Prueba.dir/Par_Impar.cpp.obj	7e2da1951bca2ff9
-22	708	7611936851969261	CMakeFiles/Proyect_Prueba.dir/Fibonacci.cpp.obj	b02ebe32f66db59a
-27	706	7611936852020174	CMakeFiles/Proyect_Prueba.dir/Factorial.cpp.obj	e1154b6d65da5fbb
-33	713	7611936852071686	CMakeFiles/Proyect_Prueba.dir/Numero_Reverso.cpp.obj	fda2b1341d85dc8a
 7	208	7612784111327875	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
-33	1131	7612784111594466	CMakeFiles/Proyect_Prueba.dir/Numero_Reverso.cpp.obj	fda2b1341d85dc8a
-39	1134	7612784111651474	CMakeFiles/Proyect_Prueba.dir/Decimal_Binario.cpp.obj	1b0ccdebcdfbc9af
-22	1138	7612784111474508	CMakeFiles/Proyect_Prueba.dir/Fibonacci.cpp.obj	b02ebe32f66db59a
+472	576	7612791278678841	Proyect_Prueba.exe	c5293b95640dd8b0
 15	1142	7612784111410915	CMakeFiles/Proyect_Prueba.dir/Par_Impar.cpp.obj	7e2da1951bca2ff9
+22	1138	7612784111474508	CMakeFiles/Proyect_Prueba.dir/Fibonacci.cpp.obj	b02ebe32f66db59a
 28	1147	7612784111535423	CMakeFiles/Proyect_Prueba.dir/Factorial.cpp.obj	e1154b6d65da5fbb
-1147	1508	7612784122725545	Proyect_Prueba.exe	c5293b95640dd8b0
+33	1131	7612784111594466	CMakeFiles/Proyect_Prueba.dir/Numero_Reverso.cpp.obj	fda2b1341d85dc8a
+5	471	7612791274007040	CMakeFiles/Proyect_Prueba.dir/Decimal_Binario.cpp.obj	1b0ccdebcdfbc9af
+6	549	7612801103742234	CMakeFiles/Proyect_Prueba.dir/Voltear_Cadena.cpp.obj	8fe3f8361efc55da
+549	674	7612801109163697	Proyect_Prueba.exe	182cdd1127d90745
+5	416	7612801371827519	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
+417	533	7612801375948677	Proyect_Prueba.exe	182cdd1127d90745

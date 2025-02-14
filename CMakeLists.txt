@@ -13,4 +13,6 @@ add_executable(Proyect_Prueba main.cpp
         Numero_Reverso.cpp
         Numero_Reverso.h
         Decimal_Binario.cpp
-        Decimal_Binario.h)
+        Decimal_Binario.h
+        Voltear_Cadena.cpp
+        Voltear_Cadena.h)
