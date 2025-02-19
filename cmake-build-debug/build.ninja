@@ -91,6 +91,12 @@ build CMakeFiles/Proyect_Prueba.dir/Voltear_Cadena.cpp.obj: CXX_COMPILER__Proyec
   OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
   OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
 
+build CMakeFiles/Proyect_Prueba.dir/Binario_Decimal.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Binario_Decimal.cpp || cmake_object_order_depends_target_Proyect_Prueba
+  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Binario_Decimal.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
+  OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Proyect_Prueba
@@ -99,7 +105,7 @@ build CMakeFiles/Proyect_Prueba.dir/Voltear_Cadena.cpp.obj: CXX_COMPILER__Proyec
 #############################################
 # Link the executable Proyect_Prueba.exe
 
-build Proyect_Prueba.exe: CXX_EXECUTABLE_LINKER__Proyect_Prueba_Debug CMakeFiles/Proyect_Prueba.dir/main.cpp.obj CMakeFiles/Proyect_Prueba.dir/Par_Impar.cpp.obj CMakeFiles/Proyect_Prueba.dir/Fibonacci.cpp.obj CMakeFiles/Proyect_Prueba.dir/Factorial.cpp.obj CMakeFiles/Proyect_Prueba.dir/Numero_Reverso.cpp.obj CMakeFiles/Proyect_Prueba.dir/Decimal_Binario.cpp.obj CMakeFiles/Proyect_Prueba.dir/Voltear_Cadena.cpp.obj
+build Proyect_Prueba.exe: CXX_EXECUTABLE_LINKER__Proyect_Prueba_Debug CMakeFiles/Proyect_Prueba.dir/main.cpp.obj CMakeFiles/Proyect_Prueba.dir/Par_Impar.cpp.obj CMakeFiles/Proyect_Prueba.dir/Fibonacci.cpp.obj CMakeFiles/Proyect_Prueba.dir/Factorial.cpp.obj CMakeFiles/Proyect_Prueba.dir/Numero_Reverso.cpp.obj CMakeFiles/Proyect_Prueba.dir/Decimal_Binario.cpp.obj CMakeFiles/Proyect_Prueba.dir/Voltear_Cadena.cpp.obj CMakeFiles/Proyect_Prueba.dir/Binario_Decimal.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir

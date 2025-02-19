@@ -15,4 +15,6 @@ add_executable(Proyect_Prueba main.cpp
         Decimal_Binario.cpp
         Decimal_Binario.h
         Voltear_Cadena.cpp
-        Voltear_Cadena.h)
+        Voltear_Cadena.h
+        Binario_Decimal.cpp
+        Binario_Decimal.h)
