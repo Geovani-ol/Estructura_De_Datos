@@ -17,4 +17,6 @@ add_executable(Proyect_Prueba main.cpp
         Voltear_Cadena.cpp
         Voltear_Cadena.h
         Binario_Decimal.cpp
-        Binario_Decimal.h)
+        Binario_Decimal.h
+        Palindroma.cpp
+        Palindroma.h)

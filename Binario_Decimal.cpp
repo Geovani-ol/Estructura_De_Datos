@@ -1,6 +1,6 @@
 #include "Binario_Decimal.h"
 #include <iostream>
-#include <math.h>
+#include <cmath>
 
 using namespace std;
 

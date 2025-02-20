@@ -1,7 +1,7 @@
-#include "Binario_Decimal.h"
+#include "Palindroma.h"
 
 int main() {
-    Binario_Decimal binario_decimal;
-    binario_decimal.mostrar_decimal();
+    Palindroma palindroma;
+    palindroma.mostrarPalindroma();
     return 0;
 }
