@@ -19,4 +19,8 @@ add_executable(Proyect_Prueba main.cpp
         Binario_Decimal.cpp
         Binario_Decimal.h
         Palindroma.cpp
-        Palindroma.h)
+        Palindroma.h
+        Division.cpp
+        Division.h
+        Multiplicasion.cpp
+        Multiplicasion.h)

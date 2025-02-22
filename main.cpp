@@ -1,7 +1,7 @@
-#include "Palindroma.h"
+#include "Multiplicasion.h"
 
 int main() {
-    Palindroma palindroma;
-    palindroma.mostrarPalindroma();
+    Multiplicasion multiplicasion;
+    multiplicasion.mostrarMultiplicasion();
     return 0;
 }
