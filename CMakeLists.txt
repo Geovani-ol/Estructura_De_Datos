@@ -23,4 +23,6 @@ add_executable(Proyect_Prueba main.cpp
         Division.cpp
         Division.h
         Multiplicasion.cpp
-        Multiplicasion.h)
+        Multiplicasion.h
+        Anagramas.cpp
+        Anagramas.h)

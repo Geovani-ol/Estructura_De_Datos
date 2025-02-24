@@ -1,7 +1,7 @@
-#include "Multiplicasion.h"
+#include "Anagramas.h"
 
 int main() {
-    Multiplicasion multiplicasion;
-    multiplicasion.mostrarMultiplicasion();
+    Anagramas anagramas;
+    anagramas.mostrarAnagrama();
     return 0;
 }
