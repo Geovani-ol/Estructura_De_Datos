@@ -1,7 +1,7 @@
-#include "Anagramas.h"
+#include "Ulam.h"
 
 int main() {
-    Anagramas anagramas;
-    anagramas.mostrarAnagrama();
+    Ulam ulam;
+    ulam.mostrarUlam();
     return 0;
 }

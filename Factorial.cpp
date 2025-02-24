@@ -4,17 +4,25 @@
 using namespace std;
 
 int Factorial::factorial(int num) {
-    if (num == 0 || num == 1) return 1;
+    if (num == 0) {
+        return 1;
+    }
 
+    return factorial2(num);
+}
+
+int Factorial::factorial2(int num) {
     return num * factorial(num - 1);
 }
 
 void Factorial::mostrarFactorial() {
-    int n;
+    int num;
 
-    cout << "Numero para factorial: ";
-    cin >> n;
+    cout << "Dame un numero: ";
+    cin >> num;
 
-    cout << "El factorial de " << n << " es: " << factorial(n) << endl;
+    cout << "El factorial de " << num << " es: " << factorial(num) << endl;
 }
+
+
 

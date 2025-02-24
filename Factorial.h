@@ -5,7 +5,8 @@
 
 class Factorial {
 public:
-    int factorial(int num);
+    int factorial(int n);
+    int factorial2(int n);
     void mostrarFactorial();
 };
 
