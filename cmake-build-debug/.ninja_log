@@ -1,6 +1,13 @@
 # ninja log v6
 44	210	7611290517877889	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	e3bdf56b3c167f38
 994	1186	7611290742530315	Proyect_Prueba.exe	9008be61c7563544
-56	1138	7611290517984195	CMakeFiles/Proyect_Prueba.dir/Par_Impar.cpp.obj	27f917ed4d27813
-65	1141	7611290518077050	CMakeFiles/Proyect_Prueba.dir/Fibonacci.cpp.obj	9cba291445d7a811
-42	993	7611290732999748	CMakeFiles/Proyect_Prueba.dir/Factorial.cpp.obj	8bec02fa6e7d936d
+4	697	7623152932404940	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
+699	1096	7623152939361257	Proyect_Prueba.exe	439d5c01da557cf
+6	565	7623155169674400	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
+566	700	7623155175269007	Proyect_Prueba.exe	439d5c01da557cf
+6	541	7623156801596908	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
+541	646	7623156806957564	Proyect_Prueba.exe	439d5c01da557cf
+5	631	7623161740567327	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
+632	756	7623161746824543	Proyect_Prueba.exe	439d5c01da557cf
+6	592	7623161913973674	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
+592	697	7623161919828924	Proyect_Prueba.exe	439d5c01da557cf
