@@ -55,66 +55,6 @@ build CMakeFiles/Proyect_Prueba.dir/main.cpp.obj: CXX_COMPILER__Proyect_Prueba_u
   OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
   OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
 
-build CMakeFiles/Proyect_Prueba.dir/Par_Impar.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Par_Impar.cpp || cmake_object_order_depends_target_Proyect_Prueba
-  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Par_Impar.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
-
-build CMakeFiles/Proyect_Prueba.dir/Fibonacci.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Fibonacci.cpp || cmake_object_order_depends_target_Proyect_Prueba
-  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Fibonacci.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
-
-build CMakeFiles/Proyect_Prueba.dir/Factorial.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Factorial.cpp || cmake_object_order_depends_target_Proyect_Prueba
-  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Factorial.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
-
-build CMakeFiles/Proyect_Prueba.dir/Numero_Reverso.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Numero_Reverso.cpp || cmake_object_order_depends_target_Proyect_Prueba
-  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Numero_Reverso.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
-
-build CMakeFiles/Proyect_Prueba.dir/Decimal_Binario.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Decimal_Binario.cpp || cmake_object_order_depends_target_Proyect_Prueba
-  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Decimal_Binario.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
-
-build CMakeFiles/Proyect_Prueba.dir/Voltear_Cadena.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Voltear_Cadena.cpp || cmake_object_order_depends_target_Proyect_Prueba
-  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Voltear_Cadena.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
-
-build CMakeFiles/Proyect_Prueba.dir/Binario_Decimal.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Binario_Decimal.cpp || cmake_object_order_depends_target_Proyect_Prueba
-  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Binario_Decimal.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
-
-build CMakeFiles/Proyect_Prueba.dir/Palindroma.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Palindroma.cpp || cmake_object_order_depends_target_Proyect_Prueba
-  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Palindroma.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
-
-build CMakeFiles/Proyect_Prueba.dir/Division.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Division.cpp || cmake_object_order_depends_target_Proyect_Prueba
-  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Division.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
-
-build CMakeFiles/Proyect_Prueba.dir/Multiplicasion.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Multiplicasion.cpp || cmake_object_order_depends_target_Proyect_Prueba
-  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Multiplicasion.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
-
 build CMakeFiles/Proyect_Prueba.dir/Anagramas.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Anagramas.cpp || cmake_object_order_depends_target_Proyect_Prueba
   DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Anagramas.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
@@ -129,7 +69,7 @@ build CMakeFiles/Proyect_Prueba.dir/Anagramas.cpp.obj: CXX_COMPILER__Proyect_Pru
 #############################################
 # Link the executable Proyect_Prueba.exe
 
-build Proyect_Prueba.exe: CXX_EXECUTABLE_LINKER__Proyect_Prueba_Debug CMakeFiles/Proyect_Prueba.dir/main.cpp.obj CMakeFiles/Proyect_Prueba.dir/Par_Impar.cpp.obj CMakeFiles/Proyect_Prueba.dir/Fibonacci.cpp.obj CMakeFiles/Proyect_Prueba.dir/Factorial.cpp.obj CMakeFiles/Proyect_Prueba.dir/Numero_Reverso.cpp.obj CMakeFiles/Proyect_Prueba.dir/Decimal_Binario.cpp.obj CMakeFiles/Proyect_Prueba.dir/Voltear_Cadena.cpp.obj CMakeFiles/Proyect_Prueba.dir/Binario_Decimal.cpp.obj CMakeFiles/Proyect_Prueba.dir/Palindroma.cpp.obj CMakeFiles/Proyect_Prueba.dir/Division.cpp.obj CMakeFiles/Proyect_Prueba.dir/Multiplicasion.cpp.obj CMakeFiles/Proyect_Prueba.dir/Anagramas.cpp.obj
+build Proyect_Prueba.exe: CXX_EXECUTABLE_LINKER__Proyect_Prueba_Debug CMakeFiles/Proyect_Prueba.dir/main.cpp.obj CMakeFiles/Proyect_Prueba.dir/Anagramas.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
