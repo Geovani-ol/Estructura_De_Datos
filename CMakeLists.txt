@@ -4,5 +4,6 @@ project(Proyect_Prueba)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Proyect_Prueba main.cpp
-        Anagramas.cpp
-        Anagramas.h)
+        Array.cpp
+        Array.h
+)

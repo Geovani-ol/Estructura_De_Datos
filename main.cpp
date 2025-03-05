@@ -1,7 +1,7 @@
-#include "Anagramas.h"
+#include "Array.h"
 
 int main() {
-    Anagramas anagramas;
-    anagramas.mostrarAnagrama();
+    Array array;
+    array.array();
     return 0;
 }
