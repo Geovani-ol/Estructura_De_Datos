@@ -1,7 +1,7 @@
-#include "Array.h"
+#include "Examen.h"
 
 int main() {
-    Array array;
-    array.array();
+    Examen examen;
+    examen.mostrarExamen();
     return 0;
 }
