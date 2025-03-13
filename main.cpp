@@ -1,7 +1,7 @@
-#include "Examen.h"
+#include "Pila.h"
 
 int main() {
-    Examen examen;
-    examen.mostrarExamen();
+    Pila pila;
+    pila.ejecutar();
     return 0;
 }

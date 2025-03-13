@@ -4,6 +4,8 @@ project(Proyect_Prueba)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Proyect_Prueba main.cpp
-        Examen.cpp
-        Examen.h
+        Pila.cpp
+        Pila.h
+        Pila_Dinamica.cpp
+        Pila_Dinamica.h
 )
