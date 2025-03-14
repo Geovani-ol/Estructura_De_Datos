@@ -12,6 +12,10 @@ private:
 public:
     Pila_Dinamica();
     bool vacia();
+    void push(int valor);
+    void pop();
+    void mostrar();
+    void destruir();
     void ejecutar();
 };
 

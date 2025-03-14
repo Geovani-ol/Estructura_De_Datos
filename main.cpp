@@ -1,7 +1,7 @@
-#include "Pila.h"
+#include "Pila_Dinamica.h"
 
 int main() {
-    Pila pila;
+    Pila_Dinamica pila;
     pila.ejecutar();
     return 0;
 }
