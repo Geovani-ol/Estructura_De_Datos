@@ -15,6 +15,7 @@ public:
     void push(int valor);
     void pop();
     void mostrar();
+    void size();
     void destruir();
     void ejecutar();
 };

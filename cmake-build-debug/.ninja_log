@@ -1,6 +1,6 @@
 # ninja log v6
-6	80	7630083572488046	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
-496	598	7630088915399584	Proyect_Prueba.exe	922355ce7bb48450
+9	204	7636127339195828	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
+638	1006	7636127345485244	Proyect_Prueba.exe	af929b50da17583a
 25	1237	7617094987769110	CMakeFiles/Proyect_Prueba.dir/Par_Impar.cpp.obj	7e2da1951bca2ff9
 35	1243	7617094987865970	CMakeFiles/Proyect_Prueba.dir/Fibonacci.cpp.obj	b02ebe32f66db59a
 7	534	7617981936985256	CMakeFiles/Proyect_Prueba.dir/Divicion.cpp.obj	1d84763a485d4cc9
@@ -8,16 +8,24 @@
 83	1290	7617094988345791	CMakeFiles/Proyect_Prueba.dir/Voltear_Cadena.cpp.obj	8fe3f8361efc55da
 56	1240	7617094988081007	CMakeFiles/Proyect_Prueba.dir/Numero_Reverso.cpp.obj	fda2b1341d85dc8a
 69	1241	7617094988213304	CMakeFiles/Proyect_Prueba.dir/Decimal_Binario.cpp.obj	1b0ccdebcdfbc9af
+29	638	7636127339393702	CMakeFiles/Proyect_Prueba.dir/Pila_Dinamica.cpp.obj	c6687b662abdc0ff
 24	1469	7617107973493873	CMakeFiles/Proyect_Prueba.dir/Binario_Decimal.cpp.obj	fda3e7be6f38e13d
 6	31	7617094983632083	clean	b4156cfd904aa1e6
 6	540	7617128238507148	CMakeFiles/Proyect_Prueba.dir/Palindroma.cpp.obj	6533899fb559676c
 6	495	7617991898752830	CMakeFiles/Proyect_Prueba.dir/Multiplicasion.cpp.obj	953b87448f30036d
-5	552	7635262346868215	build.ninja	249eb53f516aae26
+5	552	7636986409010185	build.ninja	249eb53f516aae26
 6	531	7617990348499104	CMakeFiles/Proyect_Prueba.dir/Division.cpp.obj	b53017c5551652ce
 5	688	7627480270598694	CMakeFiles/Proyect_Prueba.dir/Anagramas.cpp.obj	440acd435ce58b2c
 16	927	7628352833925642	CMakeFiles/Proyect_Prueba.dir/Array.cpp.obj	4b889590078b4d97
 6	495	7630088910504935	CMakeFiles/Proyect_Prueba.dir/Examen.cpp.obj	552e677e54fc892c
-9	204	7636127339195828	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
 21	636	7636127339313708	CMakeFiles/Proyect_Prueba.dir/Pila.cpp.obj	5762638abe492654
-29	638	7636127339393702	CMakeFiles/Proyect_Prueba.dir/Pila_Dinamica.cpp.obj	c6687b662abdc0ff
-638	1006	7636127345485244	Proyect_Prueba.exe	af929b50da17583a
+13	248	7636992589690303	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
+28	1173	7636992589837958	CMakeFiles/Proyect_Prueba.dir/Pila_Dinamica.cpp.obj	c6687b662abdc0ff
+40	1336	7636992589963093	CMakeFiles/Proyect_Prueba.dir/stack.cpp.obj	22eee114bc3df2fc
+1336	1831	7636992602925476	Proyect_Prueba.exe	239e13492c9d6e9c
+11	974	7636992965296178	CMakeFiles/Proyect_Prueba.dir/Pila_Dinamica.cpp.obj	c6687b662abdc0ff
+975	1139	7636992974945626	Proyect_Prueba.exe	239e13492c9d6e9c
+11	937	7636994571230751	CMakeFiles/Proyect_Prueba.dir/Pila_Dinamica.cpp.obj	c6687b662abdc0ff
+937	1096	7636994580489392	Proyect_Prueba.exe	239e13492c9d6e9c
+13	1094	7636995218682902	CMakeFiles/Proyect_Prueba.dir/Pila_Dinamica.cpp.obj	c6687b662abdc0ff
+1095	1290	7636995229506044	Proyect_Prueba.exe	239e13492c9d6e9c

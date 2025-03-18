@@ -49,6 +49,24 @@ void Pila_Dinamica::mostrar() {
     }
 }
 
+void Pila_Dinamica::size() {
+    int contador = 0;
+
+    if (vacia()) {
+        cout << "Pila vacia" << endl;
+        return;
+    }
+
+    Nodo * aux = pila;
+    while (aux != nullptr) {
+        contador++;
+        aux = aux->sig;
+    }
+
+    cout << "Size: " << contador << endl;
+}
+
+
 void Pila_Dinamica::destruir() {
     while (!vacia()) {
         pop();
@@ -60,10 +78,13 @@ void Pila_Dinamica::ejecutar() {
     push(3);
     push(5);
     push(18);
+    size();
     mostrar();
     pop();
+    size();
     mostrar();
     pop();
+    size();
     mostrar();
 
     destruir();

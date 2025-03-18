@@ -8,4 +8,6 @@ add_executable(Proyect_Prueba main.cpp
         Pila.h
         Pila_Dinamica.cpp
         Pila_Dinamica.h
+        stack.cpp
+        stack.h
 )
