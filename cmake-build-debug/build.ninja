@@ -55,20 +55,8 @@ build CMakeFiles/Proyect_Prueba.dir/main.cpp.obj: CXX_COMPILER__Proyect_Prueba_u
   OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
   OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
 
-build CMakeFiles/Proyect_Prueba.dir/Pila.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Pila.cpp || cmake_object_order_depends_target_Proyect_Prueba
-  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Pila.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
-
-build CMakeFiles/Proyect_Prueba.dir/Pila_Dinamica.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/Pila_Dinamica.cpp || cmake_object_order_depends_target_Proyect_Prueba
-  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\Pila_Dinamica.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
-  OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
-
-build CMakeFiles/Proyect_Prueba.dir/stack.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/stack.cpp || cmake_object_order_depends_target_Proyect_Prueba
-  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\stack.cpp.obj.d
+build CMakeFiles/Proyect_Prueba.dir/ColasS_Estatica.cpp.obj: CXX_COMPILER__Proyect_Prueba_unscanned_Debug C$:/Users/david/CLionProjects/Estructura_De_Datos/ColasS_Estatica.cpp || cmake_object_order_depends_target_Proyect_Prueba
+  DEP_FILE = CMakeFiles\Proyect_Prueba.dir\ColasS_Estatica.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir
   OBJECT_FILE_DIR = CMakeFiles\Proyect_Prueba.dir
@@ -81,7 +69,7 @@ build CMakeFiles/Proyect_Prueba.dir/stack.cpp.obj: CXX_COMPILER__Proyect_Prueba_
 #############################################
 # Link the executable Proyect_Prueba.exe
 
-build Proyect_Prueba.exe: CXX_EXECUTABLE_LINKER__Proyect_Prueba_Debug CMakeFiles/Proyect_Prueba.dir/main.cpp.obj CMakeFiles/Proyect_Prueba.dir/Pila.cpp.obj CMakeFiles/Proyect_Prueba.dir/Pila_Dinamica.cpp.obj CMakeFiles/Proyect_Prueba.dir/stack.cpp.obj
+build Proyect_Prueba.exe: CXX_EXECUTABLE_LINKER__Proyect_Prueba_Debug CMakeFiles/Proyect_Prueba.dir/main.cpp.obj CMakeFiles/Proyect_Prueba.dir/ColasS_Estatica.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Proyect_Prueba.dir

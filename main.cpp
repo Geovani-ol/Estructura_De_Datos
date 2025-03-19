@@ -1,7 +1,5 @@
-#include "Pila_Dinamica.h"
+#include "ColasS_Estatica.h"
 
 int main() {
-    Pila_Dinamica pila;
-    pila.ejecutar();
     return 0;
 }
