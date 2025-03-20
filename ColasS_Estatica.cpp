@@ -38,7 +38,7 @@ void ColasS_Estatica::dequeue() {
     if (empty()) {
         cout << "Error: La cola esta vacia" << endl;
     } else {
-        for (int i = frente; i > final; ++i) {
+        for (int i = frente; i < final; ++i) {
             arr[i] = arr[i+1];
         }
 
@@ -50,7 +50,36 @@ void ColasS_Estatica::dequeue() {
     }
 }
 
+void ColasS_Estatica::show() {
+    if (empty()) {
+        cout << "La cola esta vacia" << endl;
+    } else {
+        for (int i = frente; i <= final; ++i) {
+            cout << arr[i] << endl;
+        }
+
+        cout << endl;
+    }
+}
+
+void ColasS_Estatica::top() {
+    if (empty()) {
+        cout << "La cola esta vacia" << endl;
+    } else {
+        cout << "El frente de la cola es: " << arr[frente] << endl;
+    }
+}
+
 
 void ColasS_Estatica::ejecutar() {
-
+    enqueue(10);
+    enqueue(20);
+    enqueue(30);
+    enqueue(40);
+    show();
+    top();
+    dequeue();
+    dequeue();
+    show();
+    top();
 }

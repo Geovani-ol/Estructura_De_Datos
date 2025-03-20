@@ -1,16 +1,16 @@
-#ifndef COLASS_ESTATICA_H
-#define COLASS_ESTATICA_H
+#ifndef COLACICLICAE_H
+#define COLACICLICAE_H
 
 const int MAX = 5;
 
-class ColasS_Estatica {
+class ColaCircularE {
 private:
     int arr[MAX];
     int frente;
     int final;
 
 public:
-    ColasS_Estatica();
+    ColaCircularE();
     bool empty();
     bool full();
     void enqueue(int valor);
@@ -22,4 +22,4 @@ public:
 
 
 
-#endif //COLASS_ESTATICA_H
+#endif //COLACICLICAE_H
