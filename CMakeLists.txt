@@ -4,8 +4,10 @@ project(Proyect_Prueba)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Proyect_Prueba main.cpp
-        ColasS_Estatica.cpp
-        ColasS_Estatica.h
+        ColasSimple.cpp
+        ColasSimple.h
         ColaCircularE.cpp
         ColaCircularE.h
+        ColaSimpleD.cpp
+        ColaSimpleD.h
 )

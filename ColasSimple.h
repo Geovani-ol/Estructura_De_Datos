@@ -3,14 +3,14 @@
 
 const int MAX = 5;
 
-class ColasS_Estatica {
+class ColasSimple {
 private:
     int arr[MAX];
     int frente;
     int final;
 
 public:
-    ColasS_Estatica();
+    ColasSimple();
     bool empty();
     bool full();
     void enqueue(int valor);

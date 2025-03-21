@@ -1,14 +1,14 @@
-#include "ColasS_Estatica.h"
+#include "ColasSimple.h"
 #include <iostream>
 
 using namespace std;
 
-ColasS_Estatica::ColasS_Estatica() {
+ColasSimple::ColasSimple() {
     final = -1;
     frente = -1;
 }
 
-bool ColasS_Estatica::empty() {
+bool ColasSimple::empty() {
     if (final == -1 && frente == -1) {
         return true;
     }
@@ -16,11 +16,11 @@ bool ColasS_Estatica::empty() {
     return false;
 }
 
-bool ColasS_Estatica::full() {
+bool ColasSimple::full() {
     return (final == MAX -1);
 }
 
-void ColasS_Estatica::enqueue(int valor) {
+void ColasSimple::enqueue(int valor) {
     if (full()) {
         cout << "Error: La cola esta llena" << endl;
     } else {
@@ -34,7 +34,7 @@ void ColasS_Estatica::enqueue(int valor) {
     }
 }
 
-void ColasS_Estatica::dequeue() {
+void ColasSimple::dequeue() {
     if (empty()) {
         cout << "Error: La cola esta vacia" << endl;
     } else {
@@ -50,7 +50,7 @@ void ColasS_Estatica::dequeue() {
     }
 }
 
-void ColasS_Estatica::show() {
+void ColasSimple::show() {
     if (empty()) {
         cout << "La cola esta vacia" << endl;
     } else {
@@ -62,7 +62,7 @@ void ColasS_Estatica::show() {
     }
 }
 
-void ColasS_Estatica::top() {
+void ColasSimple::top() {
     if (empty()) {
         cout << "La cola esta vacia" << endl;
     } else {
@@ -71,7 +71,7 @@ void ColasS_Estatica::top() {
 }
 
 
-void ColasS_Estatica::ejecutar() {
+void ColasSimple::ejecutar() {
     enqueue(10);
     enqueue(20);
     enqueue(30);
