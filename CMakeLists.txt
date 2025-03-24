@@ -10,4 +10,6 @@ add_executable(Proyect_Prueba main.cpp
         ColaCircularE.h
         ColaSimpleD.cpp
         ColaSimpleD.h
+        ColaCircularD.cpp
+        ColaCircularD.h
 )

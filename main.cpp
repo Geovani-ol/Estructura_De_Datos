@@ -1,7 +1,7 @@
-#include "ColaSimpleD.h"
+#include "ColaCircularD.h"
 
 int main() {
-    ColaSimpleD colas;
+    ColaCircularD colas;
     colas.ejecutar();
     return 0;
 }
