@@ -81,7 +81,40 @@ void Bicolas::dequeueFrente() {
     }
 }
 
-void Bicolas::ejecutar() {
+void Bicolas::show() {
+    if (empty()) {
+        cout << "La cola esta vacia" << endl;
+    } else {
+        Nodo * aux = frente;
 
+        while (aux != nullptr) {
+            cout << aux -> valor << " ";
+            aux = aux -> sig;
+        }
+    }
+
+    cout << endl;
+}
+
+void Bicolas::destroy() {
+    while (!empty()) {
+        dequeueFinal();
+    }
+}
+
+void Bicolas::ejecutar() {
+    enqueueFinal(10);
+    enqueueFinal(20);
+    enqueueFinal(30);
+    show();
+
+    dequeueFinal();
+    show();
+
+    enqueueFrente(5);
+    enqueueFrente(8);
+    show();
+
+    destroy();
 }
 

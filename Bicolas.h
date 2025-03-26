@@ -18,6 +18,8 @@ public:
     void dequeueFinal();
     void enqueueFrente(int val);
     void dequeueFrente();
+    void show();
+    void destroy();
     void ejecutar();
 };
 
