@@ -13,9 +13,14 @@ private:
     Nodo * cabeza;
 public:
     Listas();
+    ~Listas();
     bool empty();
     void insertarFinal(int val);
     void insertarPosicion(int val, int posicion);
+    void eliminarPosicion(int posicion);
+    void mostrar();
+    void buscar(int val);
+    void ejecutar();
 };
 
 
