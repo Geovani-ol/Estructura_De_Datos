@@ -4,6 +4,6 @@ project(Proyect_Prueba)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Proyect_Prueba main.cpp
-        ListasEnlazadas.cpp
-        ListasEnlazadas.h
+        FilaEspera.cpp
+        FilaEspera.h
 )
