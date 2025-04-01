@@ -1,7 +1,7 @@
-#include "Listas.h"
+#include "ListasEnlazadas.h"
 
 int main() {
-    Listas listas;
+    ListasEnlazadas listas;
     listas.ejecutar();
     return 0;
 }

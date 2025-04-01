@@ -1,6 +1,6 @@
 # ninja log v6
-11	1200	7646491018565609	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
-1201	1351	7646491030460722	Proyect_Prueba.exe	8087bf55005a449b
+12	153	7648359403723904	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
+981	1179	7649072706595725	Proyect_Prueba.exe	735fce250c3eb69d
 25	1237	7617094987769110	CMakeFiles/Proyect_Prueba.dir/Par_Impar.cpp.obj	7e2da1951bca2ff9
 35	1243	7617094987865970	CMakeFiles/Proyect_Prueba.dir/Fibonacci.cpp.obj	b02ebe32f66db59a
 7	534	7617981936985256	CMakeFiles/Proyect_Prueba.dir/Divicion.cpp.obj	1d84763a485d4cc9
@@ -13,8 +13,9 @@
 6	31	7617094983632083	clean	b4156cfd904aa1e6
 6	540	7617128238507148	CMakeFiles/Proyect_Prueba.dir/Palindroma.cpp.obj	6533899fb559676c
 6	495	7617991898752830	CMakeFiles/Proyect_Prueba.dir/Multiplicasion.cpp.obj	953b87448f30036d
-4	396	7647347954207600	build.ninja	249eb53f516aae26
+4	396	7651665199011327	build.ninja	249eb53f516aae26
 6	531	7617990348499104	CMakeFiles/Proyect_Prueba.dir/Division.cpp.obj	b53017c5551652ce
+32	980	7649072697110478	CMakeFiles/Proyect_Prueba.dir/Listas.cpp.obj	10b2da0f449cc506
 10	524	7641316484610484	CMakeFiles/Proyect_Prueba.dir/ColaCircularE.cpp.obj	82c3aa8829156fd9
 5	688	7627480270598694	CMakeFiles/Proyect_Prueba.dir/Anagramas.cpp.obj	440acd435ce58b2c
 16	927	7628352833925642	CMakeFiles/Proyect_Prueba.dir/Array.cpp.obj	4b889590078b4d97
@@ -27,20 +28,3 @@
 7	504	7642179952464050	CMakeFiles/Proyect_Prueba.dir/ColaSimpleD.cpp.obj	9bccbf7291c40c0a
 13	588	7642177136705724	CMakeFiles/Proyect_Prueba.dir/ColasSimple.cpp.obj	31ec8fff12908f48
 9	988	7643037381734969	CMakeFiles/Proyect_Prueba.dir/ColaCircularD.cpp.obj	f5d31bf5a23a0b08
-29	288	7648358866759020	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
-44	1016	7648358866909116	CMakeFiles/Proyect_Prueba.dir/Listas.cpp.obj	10b2da0f449cc506
-1016	1531	7648358876621029	Proyect_Prueba.exe	735fce250c3eb69d
-12	153	7648359403723904	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
-154	321	7648359405141909	Proyect_Prueba.exe	735fce250c3eb69d
-15	1078	7648359961688438	CMakeFiles/Proyect_Prueba.dir/Listas.cpp.obj	10b2da0f449cc506
-1080	1253	7648359972325653	Proyect_Prueba.exe	735fce250c3eb69d
-12	1026	7648360568468113	CMakeFiles/Proyect_Prueba.dir/Listas.cpp.obj	10b2da0f449cc506
-1027	1200	7648360578604806	Proyect_Prueba.exe	735fce250c3eb69d
-15	890	7648361796991036	CMakeFiles/Proyect_Prueba.dir/Listas.cpp.obj	10b2da0f449cc506
-892	1066	7648361805756712	Proyect_Prueba.exe	735fce250c3eb69d
-16	1000	7648362302977162	CMakeFiles/Proyect_Prueba.dir/Listas.cpp.obj	10b2da0f449cc506
-1001	1159	7648362312816801	Proyect_Prueba.exe	735fce250c3eb69d
-11	947	7648362706530375	CMakeFiles/Proyect_Prueba.dir/Listas.cpp.obj	10b2da0f449cc506
-948	1097	7648362715889504	Proyect_Prueba.exe	735fce250c3eb69d
-32	980	7649072697110478	CMakeFiles/Proyect_Prueba.dir/Listas.cpp.obj	10b2da0f449cc506
-981	1179	7649072706595725	Proyect_Prueba.exe	735fce250c3eb69d
