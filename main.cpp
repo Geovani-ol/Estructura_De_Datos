@@ -1,7 +1,7 @@
 #include "ListasEnlazadas.h"
 
 int main() {
-    ListasEnlazadas listas;
-    listas.ejecutar();
+    ListasEnlazadas listas_enlazadas;
+    listas_enlazadas.ejecutar();
     return 0;
 }

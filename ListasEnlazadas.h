@@ -13,12 +13,15 @@ class ListasEnlazadas {
 private:
     Nodo * cabeza;
     Nodo * cola;
-private:
+public:
     ListasEnlazadas();
+    ~ListasEnlazadas();
     bool empty();
     void insertarFinal(int dato);
     int numeroNodos();
     void insertarPosicion(int dato, int posicion);
+    void eliminarPosicion(int posicion);
+    void mostrar();
     void ejecutar();
 };
 
