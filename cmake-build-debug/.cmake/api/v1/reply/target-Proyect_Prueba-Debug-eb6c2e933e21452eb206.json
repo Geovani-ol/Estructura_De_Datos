@@ -113,12 +113,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ListasEnlazadas.cpp",
+			"path" : "ListasCirculares.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "ListasEnlazadas.h",
+			"path" : "ListasCirculares.h",
 			"sourceGroupIndex" : 1
 		}
 	],
