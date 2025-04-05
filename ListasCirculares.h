@@ -16,12 +16,16 @@ private:
     Nodo * cabeza;
 public:
     ListasCirculares();
+    ~ListasCirculares();
     bool empty();
     void insertarFinal(int dato);
     void eliminarFinal();
     int size();
     void insertarPosicion(int dato, int posicion);
     void eliminarPosicion(int posicion);
+    void mostrar();
+    void eliminarValor(int dato);
+    void ejecutar();
 };
 
 
