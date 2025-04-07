@@ -1,8 +1,11 @@
 #ifndef FILAESPERA_H
 #define FILAESPERA_H
+#include <string>
+
+using namespace std;
 
 struct Nodo {
-    int dato;
+    string dato;
     Nodo * sig;
 };
 
@@ -12,7 +15,12 @@ private:
     Nodo * final;
 public:
     FilaEspera();
+    ~FilaEspera();
     bool empty();
+    void enqueue(string persona);
+    void dequeue();
+    void show();
+    void showOne();
 };
 
 
