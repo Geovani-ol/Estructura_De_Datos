@@ -113,12 +113,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "FilaEspera.cpp",
+			"path" : "ColaCDobleEnlace.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "FilaEspera.h",
+			"path" : "ColaCDobleEnlace.h",
 			"sourceGroupIndex" : 1
 		}
 	],
