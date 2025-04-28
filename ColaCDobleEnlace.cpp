@@ -5,6 +5,25 @@ using namespace std;
 
 ColaCDobleEnlace::ColaCDobleEnlace(): cabeza(nullptr) {};
 
+ColaCDobleEnlace::~ColaCDobleEnlace() {
+    if (empty()) {
+        cout << "La cola esta vacia" << endl;
+        return;
+    }
+
+    Nodo * aux = cabeza;
+    Nodo * siguiente = nullptr;
+
+    do {
+        siguiente = aux -> sig;
+        delete aux;
+        aux = siguiente;
+    } while (aux != cabeza);
+
+    cout << "Memoria liberada" << endl;
+}
+
+
 bool ColaCDobleEnlace::empty() {
     return cabeza == nullptr;
 }
@@ -16,6 +35,7 @@ void ColaCDobleEnlace::insertarFinal(int dato) {
         cabeza = nuevo;
         cabeza -> sig = cabeza;
         cabeza -> ant = cabeza;
+        cout << "Se inserto un dato: " << dato << endl;
         return;
     }
 
@@ -99,4 +119,75 @@ void ColaCDobleEnlace::insertarPosicion(int dato, int posicion) {
     nuevo -> ant = aux;
 
     cout << "Se inserto un nuevo dato: " << dato << endl;
+}
+
+void ColaCDobleEnlace::eliminarPosicion(int posicion) {
+    if (empty()) {
+        cout << "La lista esta vacia" << endl;
+        return;
+    }
+
+    if (posicion > size()) {
+        cout << "Fuera de rango, eliminando al final...." << endl;
+        eliminarFinal();
+        return;
+    }
+
+    if (posicion == 1) {
+        if (cabeza -> sig == cabeza) {
+            delete cabeza;
+            cabeza = nullptr;
+            cout << "Se elimino cabeza" << endl;
+            return;
+        }
+
+        Nodo * aux = cabeza;
+        cabeza -> ant -> sig = cabeza -> sig;
+        cabeza = aux -> sig;
+        cabeza -> ant = aux -> ant;
+        delete aux;
+        cout << "Se elimino el nodo en la primera posicion" << endl;
+        return;
+    }
+
+    int contador = 1;
+    Nodo * aux = cabeza;
+
+    while (contador < posicion) {
+        aux = aux -> sig;
+        ++contador;
+    }
+
+    aux -> ant -> sig = aux -> sig;
+    aux -> sig -> ant = aux -> ant;
+    delete aux;
+    cout << "Se elimino un dato de la lista" << endl;
+}
+
+void ColaCDobleEnlace::mostrar() {
+    if (empty()) {
+        cout << "La lista esta vacia" << endl;
+        return;
+    }
+
+    Nodo * aux = cabeza;
+
+    do {
+        cout << aux -> valor << " ";
+        aux = aux -> sig;
+    } while (aux -> sig != cabeza);
+
+    cout << endl;
+}
+
+void ColaCDobleEnlace::ejecutar() {
+    insertarFinal(10);
+    insertarFinal(20);
+    insertarFinal(30);
+    insertarPosicion(25,2);
+    insertarPosicion(40,8);
+    mostrar();
+    eliminarFinal();
+    eliminarPosicion(1);
+    mostrar();
 }

@@ -14,11 +14,15 @@ private:
     Nodo * cabeza;
 public:
     ColaCDobleEnlace();
+    ~ColaCDobleEnlace();
     bool empty();
     void insertarFinal(int dato);
     void eliminarFinal();
     int size();
     void insertarPosicion(int dato, int posicion);
+    void eliminarPosicion(int posicion);
+    void mostrar();
+    void ejecutar();
 };
 
 
