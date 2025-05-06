@@ -1,6 +1,6 @@
 # ninja log v6
-5	600	7656218277114434	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
-563	676	7656219945603091	Proyect_Prueba.exe	1e0e3e98bb1b874d
+10	136	7658589718689197	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
+986	1208	7658590966226674	Proyect_Prueba.exe	17bc4c7b904764fc
 25	1237	7617094987769110	CMakeFiles/Proyect_Prueba.dir/Par_Impar.cpp.obj	7e2da1951bca2ff9
 35	1243	7617094987865970	CMakeFiles/Proyect_Prueba.dir/Fibonacci.cpp.obj	b02ebe32f66db59a
 7	534	7617981936985256	CMakeFiles/Proyect_Prueba.dir/Divicion.cpp.obj	1d84763a485d4cc9
@@ -9,11 +9,12 @@
 56	1240	7617094988081007	CMakeFiles/Proyect_Prueba.dir/Numero_Reverso.cpp.obj	fda2b1341d85dc8a
 69	1241	7617094988213304	CMakeFiles/Proyect_Prueba.dir/Decimal_Binario.cpp.obj	1b0ccdebcdfbc9af
 13	1094	7636995218682902	CMakeFiles/Proyect_Prueba.dir/Pila_Dinamica.cpp.obj	c6687b662abdc0ff
+11	985	7658590956490035	CMakeFiles/Proyect_Prueba.dir/ColaCDobleEnlace.cpp.obj	92a136a02a819842
 24	1469	7617107973493873	CMakeFiles/Proyect_Prueba.dir/Binario_Decimal.cpp.obj	fda3e7be6f38e13d
 6	31	7617094983632083	clean	b4156cfd904aa1e6
 6	540	7617128238507148	CMakeFiles/Proyect_Prueba.dir/Palindroma.cpp.obj	6533899fb559676c
 6	495	7617991898752830	CMakeFiles/Proyect_Prueba.dir/Multiplicasion.cpp.obj	953b87448f30036d
-4	396	7657709636986417	build.ninja	249eb53f516aae26
+4	396	7677581873130169	build.ninja	249eb53f516aae26
 6	531	7617990348499104	CMakeFiles/Proyect_Prueba.dir/Division.cpp.obj	b53017c5551652ce
 32	980	7649072697110478	CMakeFiles/Proyect_Prueba.dir/Listas.cpp.obj	10b2da0f449cc506
 10	524	7641316484610484	CMakeFiles/Proyect_Prueba.dir/ColaCircularE.cpp.obj	82c3aa8829156fd9
@@ -29,10 +30,3 @@
 13	588	7642177136705724	CMakeFiles/Proyect_Prueba.dir/ColasSimple.cpp.obj	31ec8fff12908f48
 9	988	7643037381734969	CMakeFiles/Proyect_Prueba.dir/ColaCircularD.cpp.obj	f5d31bf5a23a0b08
 5	562	7656219940025809	CMakeFiles/Proyect_Prueba.dir/FilaEspera.cpp.obj	96b13ca49209e720
-33	369	7658587921751292	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
-5	1031	7658588485576020	CMakeFiles/Proyect_Prueba.dir/ColaCDobleEnlace.cpp.obj	92a136a02a819842
-1032	1547	7658588495840992	Proyect_Prueba.exe	17bc4c7b904764fc
-10	136	7658589718689197	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
-137	342	7658589719950520	Proyect_Prueba.exe	17bc4c7b904764fc
-11	985	7658590956490035	CMakeFiles/Proyect_Prueba.dir/ColaCDobleEnlace.cpp.obj	92a136a02a819842
-986	1208	7658590966226674	Proyect_Prueba.exe	17bc4c7b904764fc
