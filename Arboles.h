@@ -16,6 +16,9 @@ public:
     Arboles();
     void insertar(int dato, Nodo*& nodo);
     void destruir(Nodo*& nodo);
+    void inorden(Nodo*& nodo);
+    void posorden(Nodo*& nodo);
+    void preorden(Nodo*& nodo);
     void ejecutar();
 };
 

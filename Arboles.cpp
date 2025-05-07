@@ -27,6 +27,36 @@ void Arboles::destruir(Nodo *&nodo) {
     nodo = nullptr;
 }
 
+void Arboles::inorden(Nodo *&nodo) {
+    if (nodo == nullptr) {
+        return;
+    }
+
+    inorden(nodo -> izq);
+    cout << nodo -> valor << " " << endl;
+    inorden(nodo -> der);
+}
+
+void Arboles::posorden(Nodo *&nodo) {
+    if (nodo == nullptr) {
+        return;
+    }
+
+    posorden(nodo -> izq);
+    posorden(nodo -> der);
+    cout << nodo -> valor << " " << endl;
+}
+
+void Arboles::preorden(Nodo *&nodo) {
+    if (nodo == nullptr) {
+        return;
+    }
+
+    cout << nodo -> valor << " " << endl;
+    preorden(nodo -> izq);
+    preorden(nodo -> der);
+}
+
 void Arboles::ejecutar() {
     insertar(10, raiz);
     insertar(8, raiz);
@@ -34,6 +64,15 @@ void Arboles::ejecutar() {
     insertar(12, raiz);
     insertar(11, raiz);
     insertar(13, raiz);
+
+    cout << "Inorden: " << endl;
+    inorden(raiz);
+
+    cout << "Posorden: " << endl;
+    posorden(raiz);
+
+    cout << "Preorden: " << endl;
+    preorden(raiz);
 
     destruir(raiz);
 }
