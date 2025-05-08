@@ -19,6 +19,8 @@ public:
     void inorden(Nodo*& nodo);
     void posorden(Nodo*& nodo);
     void preorden(Nodo*& nodo);
+    Nodo* sucesor(Nodo* nodo);
+    Nodo* eliminar(Nodo* nodo, int valor);
     void ejecutar();
 };
 

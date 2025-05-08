@@ -33,7 +33,7 @@ void Arboles::inorden(Nodo *&nodo) {
     }
 
     inorden(nodo -> izq);
-    cout << nodo -> valor << " " << endl;
+    cout << nodo -> valor << " ";
     inorden(nodo -> der);
 }
 
@@ -44,17 +44,56 @@ void Arboles::posorden(Nodo *&nodo) {
 
     posorden(nodo -> izq);
     posorden(nodo -> der);
-    cout << nodo -> valor << " " << endl;
+    cout << nodo -> valor << " ";
 }
 
 void Arboles::preorden(Nodo *&nodo) {
     if (nodo == nullptr) {
+
         return;
     }
 
-    cout << nodo -> valor << " " << endl;
+    cout << nodo -> valor << " ";
     preorden(nodo -> izq);
     preorden(nodo -> der);
+}
+
+Nodo *Arboles::sucesor(Nodo* nodo) {
+    while (nodo -> izq != nullptr) {
+        nodo = nodo -> izq;
+    }
+
+    return nodo;
+}
+
+Nodo *Arboles::eliminar(Nodo* nodo, int valor){
+    if (nodo == nullptr) {
+        cout << "No se encontro el nodo" << endl;
+        return nullptr;
+    } else if (valor < nodo -> valor) {
+        nodo -> izq = eliminar(nodo -> izq, valor);
+    } else if (valor > nodo -> valor) {
+        nodo -> der = eliminar(nodo -> der, valor);
+    } else {
+        // Caso 1 -> no tiene ningun hijo
+        if (nodo -> izq == nullptr && nodo -> der == nullptr) {
+            delete nodo;
+            return nullptr;
+        } else if (nodo -> der == nullptr) {  // Caso 2 -> tiene una hoja
+            Nodo * temp = nodo -> izq;
+            delete nodo;
+            return temp;
+        } else if (nodo -> izq == nullptr) {
+            Nodo * temp = nodo -> der;
+            delete nodo;
+            return temp;
+        } else {
+            Nodo * temp = sucesor(nodo -> der);
+            nodo -> valor = temp -> valor;
+            nodo -> der = eliminar(nodo -> der, temp -> valor);
+            return nodo;
+        }
+    }
 }
 
 void Arboles::ejecutar() {
@@ -64,15 +103,15 @@ void Arboles::ejecutar() {
     insertar(12, raiz);
     insertar(11, raiz);
     insertar(13, raiz);
-
-    cout << "Inorden: " << endl;
+    cout << endl << "Inorden: " << endl;
     inorden(raiz);
-
-    cout << "Posorden: " << endl;
+    cout << endl << "Posorden: " << endl;
     posorden(raiz);
-
-    cout << "Preorden: " << endl;
+    cout << endl << "Preorden: " << endl;
     preorden(raiz);
-
+    cout << endl;
+    eliminar(raiz, 10);
+    cout << endl << "Inorden: " << endl;
+    inorden(raiz);
     destruir(raiz);
 }
