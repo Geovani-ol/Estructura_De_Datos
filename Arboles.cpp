@@ -70,7 +70,8 @@ Nodo *Arboles::eliminar(Nodo* nodo, int valor){
     if (nodo == nullptr) {
         cout << "No se encontro el nodo" << endl;
         return nullptr;
-    } else if (valor < nodo -> valor) {
+    }
+    if (valor < nodo -> valor) {
         nodo -> izq = eliminar(nodo -> izq, valor);
     } else if (valor > nodo -> valor) {
         nodo -> der = eliminar(nodo -> der, valor);
@@ -79,7 +80,8 @@ Nodo *Arboles::eliminar(Nodo* nodo, int valor){
         if (nodo -> izq == nullptr && nodo -> der == nullptr) {
             delete nodo;
             return nullptr;
-        } else if (nodo -> der == nullptr) {  // Caso 2 -> tiene una hoja
+        }
+        if (nodo -> der == nullptr) {  // Caso 2 -> tiene una hoja
             Nodo * temp = nodo -> izq;
             delete nodo;
             return temp;
@@ -91,9 +93,9 @@ Nodo *Arboles::eliminar(Nodo* nodo, int valor){
             Nodo * temp = sucesor(nodo -> der);
             nodo -> valor = temp -> valor;
             nodo -> der = eliminar(nodo -> der, temp -> valor);
-            return nodo;
         }
     }
+    return nodo;
 }
 
 void Arboles::ejecutar() {
@@ -110,6 +112,7 @@ void Arboles::ejecutar() {
     cout << endl << "Preorden: " << endl;
     preorden(raiz);
     cout << endl;
+    cout << "Eliminar nodo";
     eliminar(raiz, 10);
     cout << endl << "Inorden: " << endl;
     inorden(raiz);
