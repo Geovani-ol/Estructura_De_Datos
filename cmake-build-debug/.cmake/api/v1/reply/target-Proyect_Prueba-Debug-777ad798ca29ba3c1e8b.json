@@ -113,12 +113,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Arboles.cpp",
+			"path" : "Grafos.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Arboles.h",
+			"path" : "Grafos.h",
 			"sourceGroupIndex" : 1
 		}
 	],

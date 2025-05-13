@@ -4,6 +4,6 @@ project(Proyect_Prueba)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Proyect_Prueba main.cpp
-        arboles.cpp
-        arboles.h
+        Grafos.cpp
+        Grafos.h
 )
