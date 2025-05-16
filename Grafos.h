@@ -26,7 +26,11 @@ private:
     Vertice * obtenerVertice(string nombre);
 public:
     Grafos();
+    ~Grafos();
     void insertarVertice(string nombre);
+    void insertarArista(string origen, string destino);
+    void listaAdyacencia();
+    void ejecutar();
 };
 
 
