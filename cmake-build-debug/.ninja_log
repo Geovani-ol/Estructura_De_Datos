@@ -1,7 +1,7 @@
 # ninja log v6
-1134	1294	7688837740562121	Proyect_Prueba.exe	c9435d0d04294184
+894	1339	7691421727524957	Proyect_Prueba.exe	439d5c01da557cf
 5	528	7684502921464705	CMakeFiles/Proyect_Prueba.dir/Arboles.cpp.obj	be0a29051cce934b
-12	908	7688836895810297	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
+8	892	7691421718661131	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
 25	1237	7617094987769110	CMakeFiles/Proyect_Prueba.dir/Par_Impar.cpp.obj	7e2da1951bca2ff9
 6	714	7683651812454741	CMakeFiles/Proyect_Prueba.dir/arboles.cpp.obj	24b8c5ff3059315c
 83	1290	7617094988345791	CMakeFiles/Proyect_Prueba.dir/Voltear_Cadena.cpp.obj	8fe3f8361efc55da
@@ -15,7 +15,7 @@
 24	1469	7617107973493873	CMakeFiles/Proyect_Prueba.dir/Binario_Decimal.cpp.obj	fda3e7be6f38e13d
 6	31	7617094983632083	clean	b4156cfd904aa1e6
 6	540	7617128238507148	CMakeFiles/Proyect_Prueba.dir/Palindroma.cpp.obj	6533899fb559676c
-4	396	7691421717965582	build.ninja	249eb53f516aae26
+7	412	7694000545475460	build.ninja	249eb53f516aae26
 6	495	7617991898752830	CMakeFiles/Proyect_Prueba.dir/Multiplicasion.cpp.obj	953b87448f30036d
 32	980	7649072697110478	CMakeFiles/Proyect_Prueba.dir/Listas.cpp.obj	10b2da0f449cc506
 6	531	7617990348499104	CMakeFiles/Proyect_Prueba.dir/Division.cpp.obj	b53017c5551652ce
@@ -33,6 +33,3 @@
 9	988	7643037381734969	CMakeFiles/Proyect_Prueba.dir/ColaCircularD.cpp.obj	f5d31bf5a23a0b08
 5	562	7656219940025809	CMakeFiles/Proyect_Prueba.dir/FilaEspera.cpp.obj	96b13ca49209e720
 15	1132	7688837729373059	CMakeFiles/Proyect_Prueba.dir/Grafos.cpp.obj	4cd40b41459a944e
-7	412	7691421717965582	build.ninja	249eb53f516aae26
-8	892	7691421718661131	CMakeFiles/Proyect_Prueba.dir/main.cpp.obj	97c0b682287ecea4
-894	1339	7691421727524957	Proyect_Prueba.exe	439d5c01da557cf
