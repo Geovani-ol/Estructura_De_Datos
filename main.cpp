@@ -1,7 +1,7 @@
-#include "Quicksort.h"
+#include "ShellSort.h"
 
 int main() {
-    Quicksort quicksort;
-    quicksort.ejecutar();
+    ShellSort shell_sort;
+    shell_sort.ejecutar();
     return 0;
 }
